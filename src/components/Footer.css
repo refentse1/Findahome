@@ -1,0 +1,99 @@
+.footer{
+    margin-top: 10px;
+    height: 65vh;
+}
+.upper--footer--section{
+    background-color: #003108 ;
+    padding:61px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+}
+.footer--logo{
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+    margin-left: 5%;
+}
+.upper--footer--section{
+    height: 85%;
+}
+.upper--footer--section ul {
+    margin-left: 25%;
+}
+.upper--footer--section ul li{
+    list-style: none;
+}
+.upper--footer--section ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px
+}
+.footer--contact--form{
+    margin-left: 20%;
+}
+.footer--contact--form input{
+    margin-top: 10px;
+    width: 370px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+.footer--contact--form textarea{
+    margin-top: 10px;
+    width: 370px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+}
+.footer--btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.contact--btn{
+    width: 204px;
+    height: 35px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    transition: 0.8s;
+}
+.contact--btn:hover{
+    width: 204px;
+    height: 35px;
+    background: white;
+    border: 1px solid white;
+    color: #003108;
+    border-radius: 5px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.lower--footer--section{
+    display: flex;
+    padding: 25px 61px 0px 61px;
+}
+.lower--section--text{
+    display: flex;
+    margin-left: 25%;
+}
+.lower--section--text p{
+    margin-right: 15px;
+}
+.lower--footer--section ul{
+    display: flex;
+    margin-left: 10%;
+}
+.lower--footer--section ul li{
+    margin-left: 25%;
+    margin-right: 0;
+    list-style: none;
+}
+.lower--footer--section ul li a{
+    text-decoration: none;
+}

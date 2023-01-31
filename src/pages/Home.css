@@ -1,0 +1,242 @@
+.banner{
+    width: 100vw;
+    height:100vh;
+    background: url(../images/loungeroom.png);
+    background-size: cover;
+    padding: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    color: white;
+    
+}
+.banner h2{
+    position:relative;
+    left: 172px;
+}
+.banner p{
+    position:relative;
+    left: 172px;
+}
+.banner h2{
+    /* font-family: 'inter',sans-serif; */
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48.41px;
+}
+.banner p{
+    /* font-family: 'inter',sans-serif; */
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+.main{
+    height: 100vh;
+    display: flex;
+}
+
+.main--left--section{
+    position: relative;
+}
+.main--left--bg{
+    width: 50vw;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.1;
+}
+.main--left--text{
+    position: absolute;
+    padding: 61px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    top: 25%;
+}
+
+.main--left--text h2{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 60px;
+    color: #001F05;
+}
+.main--left--text p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #001F05;
+}
+.main--right--section{
+    background-color: #001F05;
+    height: 100%;
+    width: 50vw;
+}
+.main--right--img{
+    position: relative;
+    width: 700px;
+    height: 530px;
+    left: -75px;
+    top: 10%;
+    box-shadow: 10px 10px 10px rgba(164, 164, 164, 0.296);
+    border-radius: 15px;
+    background: url(../images/lycs-architecture-kUdbEEMcRwE-unsplash.jpg);
+    background-size: cover;
+    transition: 5s;
+}   
+
+.teams{
+    position: relative;
+}
+.teams--head--section{
+    display: flex;
+    justify-content: center;
+}
+.teams--section{
+    height: 100vh;
+    display: flex; 
+    position: relative;
+}
+.teams--left--section{
+    background-color: #001F05;
+    height: 100%;
+    width: 32vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 61px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+}
+.team--title{
+    font-weight: lighter;
+    font-size: 24px;
+}
+.teams--right--section{
+    position: relative;
+    height: 100%;
+    width: 68vw;
+}
+.teams--head--section{
+    position:absolute;
+    top: 8%;
+    left: 15%;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+}
+.teams--img{
+    width: 315px;
+    height: 363px;
+    border-radius: 15px;
+}
+.teams--right--bg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.1;
+}
+.card--section{
+    display: flex;
+    padding: 61px;
+    position: absolute;
+    top: 15%;
+    left: 4%;
+}
+.card{
+    margin-right: 15%;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+}
+#card1{
+    color: white;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+
+.steps{
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.steps--head--section{
+    /* display: flex;
+    justify-content: center; */
+    color: #001F05;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+    padding: 61px;
+}
+.steps--middle--section{
+    padding: 61px;
+    width: 1320px;
+    height: 374px;
+    background: #003108;
+    box-shadow: 0px 20px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 150px;
+}
+.steps--middle--section button{
+    margin-left: 80px;
+    background: none;
+    border: 1px solid white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    border-radius: 10px;
+    transition: 0.8s;
+}
+.steps--middle--section button:hover{
+    margin-left: 80px;
+    background: #ffffff;
+    border: 1px solid white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color:#001F05;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    border-radius: 10px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.steps--img{
+    width: 498px;
+    height: 450px;
+    border-radius: 15px;
+    position:absolute;
+    top: 17%;
+    left: 63%;
+    box-shadow: 20px 45px 4px rgba(0, 0, 0, 0.25);
+}
+.steps--low--section{
+    text-align: center;
+    position: absolute;
+    width: 1029px;
+    height: 81px;
+    left: 206px;
+    top: 90%;
+}
